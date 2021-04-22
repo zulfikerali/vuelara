@@ -7,6 +7,7 @@
 
                     <div class="card-body">
                         I'm an example component.
+                        <Body></Body>
                     </div>
                 </div>
             </div>
@@ -15,9 +16,10 @@
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+import Body from "./Body";
+export default {
+    mounted() {
+        console.log("Component mounted.");
     }
+};
 </script>
